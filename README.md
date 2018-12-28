@@ -17,7 +17,7 @@ Of course, you need a cherry app to use this connector :
 
 ```javascript
 const Cherry = require('cherry')
-const CherryHandlebarsConnector = require('cherry-handlebars-connector')
+const CherryHandlebarsConnector = require('@lund-org/cherry-handlebars-connector')
 
 const cherry = new Cherry()
 cherry.configure(routes, [], options)
