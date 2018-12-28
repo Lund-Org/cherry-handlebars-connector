@@ -17,7 +17,7 @@ class CherryHandlebarsConnector {
   /**
    * The connector to use Handlebar with cherry
    */
-  constructor (configuration) {
+  constructor (configuration = {}) {
     if (typeof configuration.viewEngine !== 'undefined') {
       this.configuration = configuration.viewEngine
     } else {

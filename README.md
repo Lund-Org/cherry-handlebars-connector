@@ -1,5 +1,7 @@
 # Cherry Handlebars Connector
 
+[![Build Status](https://travis-ci.com/Lund-Org/cherry-handlebars-connector.svg?branch=master)](https://travis-ci.com/Lund-Org/cherry-handlebars-connector)
+
 A plugin to use handlebars as the html renderer in cherry 🍒
 
 ## Installation
