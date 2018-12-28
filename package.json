@@ -1,6 +1,6 @@
 {
   "name": "@lund-org/cherry-handlebars-connector",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "A plugin to use handlebars as the html renderer",
   "main": "./src/connector.js",
   "author": "Lund-Org",
@@ -39,13 +39,17 @@
     "mocha": "^5.2.0"
   },
   "keywords": [
-    "framework",
-    "lightweight"
+    "cherry",
+    "connector",
+    "handlebars",
+    "plugin",
+    "html",
+    "template"
   ],
   "publishConfig": {
     "access": "public"
   },
   "files": [
-    "./src/"
+    "src"
   ]
 }
