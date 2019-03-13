@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.com/Lund-Org/cherry-handlebars-connector.svg?branch=master)](https://travis-ci.com/Lund-Org/cherry-handlebars-connector)
 
-A plugin to use handlebars as the html renderer in cherry 🍒
+A plugin to use [handlebars](https://github.com/wycats/handlebars.js/) as the html renderer in cherry 🍒
 
 ## Installation
 
@@ -22,7 +22,7 @@ const Cherry = require('@lund-org/cherry')
 const CherryHandlebarsConnector = require('@lund-org/cherry-handlebars-connector')
 
 const cherry = new Cherry()
-cherry.configure(routes, [], options)
+cherry.configure(routes, [], options) // TO UPDATE WHEN REFACTO IS DONE
 // The following line is the important one
 cherry.registerPlugin(CherryHandlebarsConnector)
 cherry.start(options)

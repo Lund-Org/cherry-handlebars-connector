@@ -1,5 +1,4 @@
 /* global describe it */
-/* eslint no-unused-expressions: 0 */
 const { expect } = require('chai')
 const path = require('path')
 const CherryHandlebarsConnector = require('../../src/connector')
