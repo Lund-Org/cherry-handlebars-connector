@@ -1,6 +1,6 @@
 # Cherry Handlebars Connector
 
-[![Build Status](https://travis-ci.com/Lund-Org/cherry-handlebars-connector.svg?branch=master)](https://travis-ci.com/Lund-Org/cherry-handlebars-connector)
+[![Build Status](https://travis-ci.com/Lund-Org/cherry-handlebars-connector.svg?branch=master)](https://travis-ci.com/Lund-Org/cherry-handlebars-connector) [![Maintainability](https://api.codeclimate.com/v1/badges/88259eabd94df27161bd/maintainability)](https://codeclimate.com/github/Lund-Org/cherry-handlebars-connector/maintainability) [![Test Coverage](https://api.codeclimate.com/v1/badges/88259eabd94df27161bd/test_coverage)](https://codeclimate.com/github/Lund-Org/cherry-handlebars-connector/test_coverage)
 
 A plugin to use [handlebars](https://github.com/wycats/handlebars.js/) as the html renderer in cherry 🍒
 
