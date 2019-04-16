@@ -21,10 +21,14 @@ Of course, you need a cherry app to use this connector :
 const Cherry = require('@lund-org/cherry')
 const CherryHandlebarsConnector = require('@lund-org/cherry-handlebars-connector')
 
+const options = {
+  ...
+  plugins: [CherryHandlebarsConnector]
+  ...
+}
+
 const cherry = new Cherry()
-cherry.configure(routes, [], options) // TO UPDATE WHEN REFACTO IS DONE
-// The following line is the important one
-cherry.registerPlugin(CherryHandlebarsConnector)
+cherry.configure(options)
 cherry.start(options)
 ```
 
