@@ -6,7 +6,7 @@ const fs = require('../../../src/helpers/fs')
 
 describe('Fs Helper', () => {
   it('Test if a file can be read', async () => {
-    let content = await fs.readFile(path.join(__dirname, '/fsTestPayload.json'))
+    const content = await fs.readFile(path.join(__dirname, '/fsTestPayload.json'))
     let json = null
 
     expect(content instanceof Buffer).to.be.true
